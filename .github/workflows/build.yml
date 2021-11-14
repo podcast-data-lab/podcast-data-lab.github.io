@@ -5,8 +5,8 @@ on:
     branches: ['main']
   push:
     branches: ['**']
-  checks:
-    if: github.event_name != 'push'
+jobs:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
