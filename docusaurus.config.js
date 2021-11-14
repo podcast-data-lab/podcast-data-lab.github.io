@@ -9,7 +9,7 @@ const config = {
   title: 'Podcast Data Lab',
   tagline: 'All About Podcast Data',
   url: 'https://podcast-data-lab.github.io',
-  baseUrl: 'https://github.com/podcast-data-lab/podcast-data-lab.github.io/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
