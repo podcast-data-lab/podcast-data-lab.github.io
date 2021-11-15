@@ -44,9 +44,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "Podcast Data Lab",
         logo: {
-          alt: "My Site Logo",
+          alt: "Podcast Data Lab Logo",
           src: "img/logo.svg",
         },
         items: [
@@ -119,6 +119,21 @@ const config = {
          * Possible values: "top" | "bottom"
          */
         playgroundPosition: "bottom",
+      },
+      colorMode: {
+        defaultMode: "light",
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+        switchConfig: {
+          darkIcon: "🌙",
+          darkIconStyle: {
+            marginLeft: "2px",
+          },
+          lightIcon: "🌞",
+          lightIconStyle: {
+            marginLeft: "1px",
+          },
+        },
       },
     }),
 };
